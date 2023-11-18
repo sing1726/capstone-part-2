@@ -1,13 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document-1</title>
-</head>
-<body>
-    
 
-    <h3>WEB DEVELOPMENT 111</h3>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css\style.css">
+  <title>Astronomy</title>
+</head>
+
+<body>
+  <main>
+    <h1>Star's Astronomy</h1>
+    <div class="dynamic">
+      <button id="start-button">Click to start</button>
+      <div id="date">
+        <label for="">Enter the date</label>
+        <input type="date" id="start-date">
+        <button id="go">Go!</button>
+      </div>
+    </div>
+    <div id="modal">
+      <img id="close" src="images\cross.png" alt="">
+      <h1 id="title">Here You Go!</h1>
+      <h2 id="date-api">13-07-1999</h2>
+      <p id="explanation">Lorem ipsum dolor sit amet consectetur adipisicing elit. In alias repellat minima tempore
+        delectus excepturi
+        quisquam error quod a? Maiores similique ipsa dolorum placeat quos. Repellendus labore harum veniam soluta?
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero facere iure delectus consequuntur? Assumenda
+        sint aspernatur quod nobis possimus qui labore cumque enim sit ducimus magnam, ullam et repellendus velit!</p>
+      <div class="image-modal">
+        <img class="main" id="main-image" src="images\test2.jpeg" alt="">
+        <img class="fav" id="fav" src="images\heart.png" alt="">
+      </div>
+    </div>
+  </main>
+
+  <section class="listing">
+    <h1>Favourites</h1>
+    <div class="list" id="list">
+    </div>
+  </section>
+  <script src=""></script>
 </body>
+
 </html>
